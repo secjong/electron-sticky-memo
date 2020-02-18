@@ -1,0 +1,61 @@
+/* 헤더 */
+header {
+    border-bottom: 1px solid #CCCCCC;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+header button {
+    border: none;
+    background-color: RGBA(255,255,255,0);
+    -webkit-app-region: no-drag;
+}
+
+header button:hover{
+    background-color: #DDDDDD;
+}
+
+header button:active{
+    background-color:#FFFFFF;
+    outline: none;
+    border: none;
+}
+
+header button:focus {
+    outline: none;
+}
+
+header .leftArea {
+    flex: none;
+}
+
+header .leftArea button {
+    line-height: 20px;
+}
+
+header .rightArea {
+    margin-left: auto;
+    justify-content: center;
+}
+
+header .rightArea button.settingBtn {
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/setting_button.png');
+    background-size: 16px;
+    padding: 4px;
+}
+
+header .rightArea button.memoSettingBtn {
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/memo_setting_button.png');
+    background-size: 16px;
+    padding: 4px;
+}
+
+

@@ -1,0 +1,23 @@
+html {
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #F9DAAC;
+}
+
+section {
+    height: calc(400px - 50px);
+}
+
+section textarea#contentArea {
+    background-color: RGBA(255,255,255,0);
+    width: 98%;
+    height: 100%;
+    border: none;
+    resize:none;
+}
+
+section textarea#contentArea:focus {
+    outline: none;
+}
